@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(58, 58, 59, 0.188);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    font-family: sans-serif;
+   
+    
+    
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 300;
+    font-size: large;
+    color: white;
+}
+
+#name{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-areas: 
+    "box-1 box-1 box-2 box-3"
+    "box-1 box-1 box-4 box-4";
+    gap: 15px;
+    height: 300px;
+    padding-top: 70px;
+   
+}
+
+
+
+#wet{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-areas: 
+    "box-5 box-6 box-7";
+    padding-top: 15px;
+    margin-bottom: 100px;
+    height: 200px;
+    gap: 15px;
+}
+
+#oya{
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(123, 190, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+    gap: 10px;
+   
+
+}
+
+#cool{
+    border: 1px solid white;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+    gap: 10px;
+   
+
+}
+
+#race{
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(48, 58, 106);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+    gap: 10px;
+   
+}
+
+#oracle{
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(48, 58, 106);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+    gap: 10px;
+   
+}
+
+#pockets{
+    border: 1px solid white;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+#pockets h1{
+    color: rgb(17, 195, 239);
+}
+
+#jaw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#money{
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(48, 58, 106);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+#money h1{
+    color: rgb(17, 195, 239);
+}
+
+#sory{
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(123, 190, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+#cool h1{
+    font-weight: 600;
+    
+}
+
+
